@@ -1,0 +1,11 @@
+file_client: local
+hash_type: sha256
+
+fileserver_backend:
+ - roots
+ - git
+
+gitfs_remotes:
+  - git://github.com/saltstack-formulas/openssh-formula.git
+
+
